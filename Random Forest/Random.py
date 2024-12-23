@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score, roc_curve, roc_auc_score
 
 # Load the dataset (Heart Disease dataset from UCI)
-@st.cache
+
 def load_data():
     # url = 'https://raw.githubusercontent.com/plotly/datasets/master/heart.csv'
     data = pd.read_csv("C:/Users/hp/Documents/new-heart-model-demo/final model done/Random Forest/heart1.csv")
